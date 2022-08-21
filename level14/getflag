@@ -1,4 +1,4 @@
-Dump of assembler code for function main:
+
    0x08048946 <+0>:	push   %ebp
    0x08048947 <+1>:	mov    %esp,%ebp
    0x08048949 <+3>:	push   %ebx
@@ -304,4 +304,3 @@ Dump of assembler code for function main:
    0x08048ec7 <+1409>:	mov    -0x4(%ebp),%ebx
    0x08048eca <+1412>:	leave
    0x08048ecb <+1413>:	ret
-End of assembler dump.
