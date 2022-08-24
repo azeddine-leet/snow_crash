@@ -1,6 +1,8 @@
-- didn't find anything the previous day
--than when i connected today using ssh to level05 
-i noticed i have a new mail
-i checked /var/mail and found cron job that run every 2 minutes run a command which loop throught all file , exucute them , and remove them.
-now its obvious i created a file , put getflag inside of it and redirect the output to /var/tmp
-waited two minutes and i got the flag yay!
+## Walkthrought : 
+- The first day i found nothing :(
+- The next day when i connected today using ssh to level05 
+- I got a msg telling i have a new email
+- checked /var/mail and found cron job which runs a script **/usr/sbin/openarenaserver**
+- The script loop throught all files in /opt/openarenaserver/, exucute , and delete each one of them.
+- now its obvious i created a file , put getflag inside of it, and redirect the output to /var/tmp
++ waited two minutes and i got the flag yay!
