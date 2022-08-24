@@ -14,4 +14,5 @@
 
 
 ## Ressources :
-- [find manual](https://man7.org/linux/man-pages/man1/find.1.html)
+- [Find manual](https://man7.org/linux/man-pages/man1/find.1.html)
+- [Encryption identification](https://www.dcode.fr/identification-chiffrement)
