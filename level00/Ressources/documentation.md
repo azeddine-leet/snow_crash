@@ -1,12 +1,12 @@
 ## Walkthrough :
 > Following the video from intra **FIND this first file who can only be runed as flag00...**
 
-#### Command :
-&emsp;find / -type f -user flag00 2>/dev/null  
-&emsp;**/** : specify the path where to search.  
-**-type** : type of file to look for.  
-**-user** : specifiy the owner of the file  
-**2>/dev/null** : redirect errors to /dev/null  
+&emsp;&emsp;```#### Command :```  
+&emsp;&emsp;```- find / -type f -user flag00 2>/dev/null```  
+&emsp;&emsp;**/** : specify the path where to search.  
+&emsp;&emsp;**-type** : type of file to look for.  
+&emsp;&emsp;**-user** : specifiy the owner of the file  
+&emsp;&emsp;**2>/dev/null** : redirect errors to /dev/null  
 
 
 
