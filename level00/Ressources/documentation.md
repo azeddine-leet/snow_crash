@@ -2,7 +2,7 @@
 > Following the video from intra **FIND this first file who can only be runed as flag00...**
 
 ###
-&emsp;&emsp; -  ```Command :```  
+&emsp;&emsp;```Command :```  
 &emsp;&emsp;&emsp; ```- find / -type f -user flag00 2>/dev/null```  
 &emsp;&emsp;  
 &emsp;&emsp; >&emsp;**/** : specify the path where to search.  
