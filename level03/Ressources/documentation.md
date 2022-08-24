@@ -1,6 +1,6 @@
 ## Walkthrough :  
-- This level have an executable with SUID FLAG , and uses environment variable to execute system command usign *system* function  
-- So i thought of creating shell file in the name echo command and add the path to environment variable that can be called when the program runs.
+- This level have an executable with SUID FLAG , and uses environment variable to execute system command using *system* function  
+- So i thought of creating shell file with the name echo command and add the path to environment variable that can be called when the program runs.
 - creating a file with name echo, contain getflag command 
 ```
 chmod 777 . && echo "getflag" >> echo && chmod 777 echo
