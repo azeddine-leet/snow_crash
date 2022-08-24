@@ -16,5 +16,5 @@
 > + It turn out it uses cesar cipher .
 
 ## Ressources :
-- [Find manual](https://man7.org/linux/man-pages/man1/find.1.html)
-- [Encryption identification](https://www.dcode.fr/identification-chiffrement)
+> - [Find manual](https://man7.org/linux/man-pages/man1/find.1.html)
+> - [Encryption identification](https://www.dcode.fr/identification-chiffrement)
