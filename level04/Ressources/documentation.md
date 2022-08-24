@@ -15,7 +15,7 @@ x(param("x"));
 ```
 print \`echo $y 2>&1\`;
 ```
-- this line allows the output of **echo $y to be passed to print function**.
+- this line allows the output of **echo $y to be passed to the function print**.
 - we only need to pass our exploit *$(getflag)* to echo, this will runs as a sub command .
     - connect using
     ```
