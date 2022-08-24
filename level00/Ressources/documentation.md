@@ -9,6 +9,6 @@
 > **-user** : specifiy the owner of the file  
 > **2>/dev/null** : redirect errors to /dev/null  
 
-## Ressources :
+```@@## Ressources :@@```
 
-[find](https://man7.org/linux/man-pages/man1/find.1.html)
+[find command](https://man7.org/linux/man-pages/man1/find.1.html)
