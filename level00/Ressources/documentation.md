@@ -11,7 +11,9 @@
 &emsp;&emsp; >&emsp;**2>/dev/null** : redirect errors to /dev/null  
 ###
 
-
+> The output is two files with same content (/usr/sbin/john, and /rofs/usr/sbin/john) [cdiiddwpgswtgt]  
+> first i tried the password , didn't work , so i thought of using dcode to identifiy the encryption.  
+> It turn out it uses cesar cipher .
 
 ## Ressources :
 - [Find manual](https://man7.org/linux/man-pages/man1/find.1.html)
