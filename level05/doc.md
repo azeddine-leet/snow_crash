@@ -1,6 +1,6 @@
 ## Walkthrought : 
 - The first day i found nothing :(
-- The next day when i connected today using ssh to level05 
+- The next day when i connected using ssh to level05 
 - I got a msg telling i have a new email
 - checked /var/mail and found cron job which runs a script **/usr/sbin/openarenaserver**
 - The script loop throught all files in /opt/openarenaserver/, exucute , and delete each one of them.
