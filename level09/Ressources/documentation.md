@@ -1,3 +1,4 @@
+## Walkthrough :
 + Trying some random strings as parameters to executable found in the home .
 + I notice that it change each character based on its location in the string.
 + i decided to make this simple program to get the origin token:
