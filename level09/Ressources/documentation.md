@@ -1,6 +1,6 @@
-test the exec with some random args 
-notice that it change each character based on its location in the string 
-do a program in c to reverse the operation :
++ Trying some random strings as parameters to executable found in the home .
++ I notice that it change each character based on its location in the string.
++ i decided to make this simple program to get the origin token:
 ```
 #include <fcntl.h>
 #include <sys/types.h>
@@ -28,7 +28,7 @@ int main(int ac, char **av)
         return (0);
 }
 ```
-+ passing the token file to that program give's this token gives:
++ passing the token file to that program gives:
 ```
 f3iji1ju5yuevaus41q1afiuq
 ```
