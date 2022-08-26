@@ -9,9 +9,9 @@ echo $PATH | tr ":" "\n"
 ls -1 /bin | while read -r line; do file $(which $line) | grep 'not stripped' >/dev/null; if [ $? -eq 0 ]; then echo $line; fi; done
 ```
 +  ##### note :
-    - note the script is looking for any program 'not stripped' in /bin path (i tried all paths in $PATH)
+    - the script is looking for any program 'not stripped' in /bin path (i tried all paths in $PATH)
 
-- started a debugging session, and got **you should not reverse this binary**
+- Found **getflag**, started a debugging session, and got **you should not reverse this binary**
 ```
    0x08048989 <+67>:	call   0x8048540 <ptrace@plt>
    0x0804898e <+72>:	test   %eax,%eax
