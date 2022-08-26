@@ -1,6 +1,6 @@
 ## Walkthrought :
 
-- First i strted searching for any files or programs. user home is empty.
+- First i started searching for any files or programs. user home was empty.
 - i got the idea of searching for anything reversable, runned the script bellow to find the binary wich is not stripped (possible to debug)
 ```
 echo $PATH | tr ":" "\n"
