@@ -19,7 +19,18 @@ ls -1 /bin | while read -r line; do file $(which $line) | grep 'not stripped' >/
 ```
 - changed the value $eax from -1 to 1, the program continue excuting normaly 
 - following program call getuid, based on the uid the program print a string after sending it to a function **ft_des**
-- immediately i changed the getuid return to flag14 uid and got the flag 
+```
+   0x08048afd <+439>:	call   0x80484b0 <getuid@plt>
+   0x08048b02 <+444>:	mov    %eax,0x18(%esp)
+```
+- immediately i changed the getuid return to flag14 uid and got the flag.
+```
+(gdb) set $eax = 3014
+(gdb) c
+Continuing.
+Check flag.Here is your token : 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
+[Inferior 1 (process 14216) exited normally]
+```
 
 ## Ressources
 - [ptrace](https://man7.org/linux/man-pages/man2/ptrace.2.html#RETURN_VALUE)
