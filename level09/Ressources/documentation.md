@@ -1,6 +1,7 @@
 test the exec with some random args 
 notice that it change each character based on its location in the string 
 do a program in c to reverse the operation :
+```
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/uio.h>
@@ -26,8 +27,9 @@ int main(int ac, char **av)
         }
         return (0);
 }
-
-passing the token file to that program give's this token 
-the string is :{f3iji1ju5yuevaus41q1afiuq�}
-log in to flag09 with the token 
-and launch getflag command .
+```
++ passing the token file to that program give's this token gives:
+```
+f3iji1ju5yuevaus41q1afiuq
+```
++ log in to flag09 with the token, launch getflag command .
