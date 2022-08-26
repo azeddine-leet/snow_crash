@@ -6,7 +6,7 @@
 &emsp;&emsp;&emsp; ```- find / -type f -user flag00 2>/dev/null```  
 &emsp;&emsp;  
 &emsp;&emsp; >&emsp;**/** : specify the path where to search.  
-&emsp;&emsp; >&emsp;**-type** : look for files only.
+&emsp;&emsp; >&emsp;**-type** : look for files only.  
 &emsp;&emsp; >&emsp;**-user** : specifiy the owner of the file  
 &emsp;&emsp; >&emsp;**2>/dev/null** : redirect errors to /dev/null  
 
