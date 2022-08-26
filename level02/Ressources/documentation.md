@@ -12,4 +12,4 @@ scp -P 4242 level02@IP:~/level02.pcap ~/Desktop
 - log in to flag02 with the password, and don't forget to launch getflag
 
 ## Ressources :
-[wireshark tutorial](https://resources.infosecinstitute.com/topic/pcap-analysis-basics-with-wireshark/)`
+[wireshark tutorial](https://resources.infosecinstitute.com/topic/pcap-analysis-basics-with-wireshark/)
