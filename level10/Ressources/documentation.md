@@ -37,7 +37,11 @@ do
 	./level10 file 0.0.0.0
 done
 ```
-
++ launching the two scripts i got this token
+```
+woupa2yuojeeaaed06riuj63c
+```
++ log in to flag10 with the token , and launch getflag!.
 
 ## Ressources :
 + [race condition](https://web.ecs.syr.edu/\~wedu/Teaching/IntrCompSec/LectureNotes_New/Race_Condition.pdf)  
