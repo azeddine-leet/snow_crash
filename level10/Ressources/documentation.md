@@ -6,12 +6,13 @@ level10@SnowCrash:~$ ./level10
 ./level10 file host
 	sends file to host if you have access to it
 ```
++ tryied **strings level10** , the server is trying to connect to a host in 6969 port.
++ launched **netstat -l** the port wasn't open. so i opened it using :
 ```
-%s file host
-	sends file to host if you have access to it
-Connecting to %s:6969 ..
-Unable to connect to host %s
-``` 
+nc -lk 6969
+```
+* i noticed the use of **access function** 
+
 
 ```
 #!/bin/sh
@@ -35,5 +36,5 @@ done
 
 
 ## Ressources :
-[race condition](https://web.ecs.syr.edu/\~wedu/Teaching/IntrCompSec/LectureNotes_New/Race_Condition.pdf)  
-[access() Security Hole](https://stackoverflow.com/questions/7925177/access-security-hole)
++ [race condition](https://web.ecs.syr.edu/\~wedu/Teaching/IntrCompSec/LectureNotes_New/Race_Condition.pdf)  
++ [access() Security Hole](https://stackoverflow.com/questions/7925177/access-security-hole)
