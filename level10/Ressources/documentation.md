@@ -11,8 +11,9 @@ level10@SnowCrash:~$ ./level10
 ```
 nc -lk 6969
 ```
-* i noticed the use of **access function** 
-
+* i noticed the use of **access function** which gives the possiblity of a security hole.
+	##### description from stackexchange:
+	+ *It is a race condition. You do the access(), then you do the open(). In the small time between the two calls, the file may have changed. Typically, the file is, say, /tmp/foo. Initially, the file is owned by some user (who is the bad guy of the story), and the target is some root-powered application. The application does the access(), sees that the file really belongs to the user, and thus thinks: "that's fine, it's his file, I can process it on his behalf". Then the bad guy quickly replaces the file with a symbolic link to /etc/shadow. The application has already taken the decision to open /tmp/foo, but when it does, it really opens and processes /etc/shadow*
 
 ```
 #!/bin/sh
