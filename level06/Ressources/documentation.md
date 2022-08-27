@@ -8,4 +8,4 @@
 ```
 
 ## Ressources :
-+ [e modifier in regex](//https://stackoverflow.com/questions/2082207/calling-function-inside-preg-replace-thats-inside-a-function)
++ [e modifier in regex](https://stackoverflow.com/questions/2082207/calling-function-inside-preg-replace-thats-inside-a-function)
